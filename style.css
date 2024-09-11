@@ -1,0 +1,52 @@
+body,
+html{
+    font-family: "SUSE", sans-serif;
+    background: url(one.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.player {
+    background-color: #94f3118e;
+    border: 1px solid #131313;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.controls button {
+    background-color: #30c3a1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #2a2b2d;
+}
+
+.progress-container,
+.volume-container {
+    margin: 15px 0;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
